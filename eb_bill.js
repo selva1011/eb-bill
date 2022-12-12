@@ -26,7 +26,7 @@ function calculate(x){                 // in this function is made for amount to
         console.log(amount)
     }
 }
-function gst(x){
+function gst(x){                     //this is the function where gst has been calculated 
     cGst = amount*.03
     sGst = amount*.03
     //console.log(cGst + " " + sGst)
@@ -37,7 +37,7 @@ if (reading_value <= 150){             //government supsidairy for 150 units
     amount = 0
 }
 Total = amount + sGst + cGst;
-function printout(){
+function printout(){                          //this function is made for printout on console includes gst & total amount u have pay
     console.log("Amount Rs " + amount)
     console.log("sGSt Rs " + sGst)
     console.log("cGSt Rs " +  cGst )
