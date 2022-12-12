@@ -1,2 +1,3 @@
 # eb-bill
-Electricity bill generator at javascript 
+Electricity bill generator based on the state #TAMILNADU at javascript 
+
